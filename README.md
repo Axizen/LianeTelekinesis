@@ -1,8 +1,6 @@
 # LianeTelekinesis
 A showcase of the telekinesis mechanics from the cancelled third person action puzzle game Project Liane.
 
-<img src="Screenshots/Demo Scene Screenshot.png" width=640 height=360>
-
 Controls:
    - Move: WSAD
    - Jump: Space
