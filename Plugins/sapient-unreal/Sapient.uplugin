@@ -1,0 +1,60 @@
+{
+    "FileVersion":  3,
+    "Version":  1,
+    "VersionName":  "0.0.10",
+    "EngineVersion":  "5.4.0",
+    "CompatibleEngineVersions":  [
+                                     "5.4.0",
+                                     "5.4.1",
+                                     "5.4.2",
+                                     "5.4.3",
+                                     "5.4.4"
+                                 ],
+    "FriendlyName":  "Sapient",
+    "Description":  "Unreal Plugin for Sapient",
+    "Category":  "Editor Tools",
+    "CreatedBy":  "Sapient Technologies",
+    "CreatedByURL":  "",
+    "DocsURL":  "",
+    "MarketplaceURL":  "",
+    "SupportURL":  "",
+    "CanContainContent":  false,
+    "IsBetaVersion":  false,
+    "IsExperimentalVersion":  false,
+    "Installed":  false,
+    "EnabledByDefault":  true,
+    "CanBeUsedInEditor":  true,
+    "OptimizeCode":  "Always",
+    "SupportedTargetPlatforms":  [
+                                     "Win64",
+                                     "Mac",
+                                     "Linux"
+                                 ],
+    "Modules":  [
+                    {
+                        "Name":  "Sapient",
+                        "Type":  "Editor",
+                        "LoadingPhase":  "Default",
+                        "PlatformAllowList":  [
+                                                  "Win64",
+                                                  "Mac",
+                                                  "Linux"
+                                              ],
+                        "AdditionalDependencies":  [
+                                                       "UnrealEd",
+                                                       "HotReload"
+                                                   ]
+                    }
+                ],
+    "Plugins":  [
+                    {
+                        "Name":  "PythonScriptPlugin",
+                        "Enabled":  true,
+                        "Optional":  false
+                    },
+                    {
+                        "Name":  "EditorScriptingUtilities",
+                        "Enabled":  true
+                    }
+                ]
+}
